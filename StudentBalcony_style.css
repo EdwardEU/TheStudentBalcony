@@ -407,6 +407,15 @@ body .linking-section {
          left: 80%; 
         
         }
+        .add-on input{
+            width: 60%;
+            padding: 2px;
+            position: static;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            font-size: 13px;
+            transition: border-color 0.3s;
+        }
 
 
 /*Kontakt*/
@@ -734,6 +743,7 @@ body .linking-section {
   }
 
 }
+
 
 
 
