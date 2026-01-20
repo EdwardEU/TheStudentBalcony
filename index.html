@@ -92,7 +92,9 @@
      <section class="konfigurator-section" id="ZumKonfigurator">
         <div class="configurator">
           <h2 Class="section-title" data-section="Configurator" data-value="Title">Konfigurator</h2>
+           <form action="https://api.web3forms.com/submit" method="POST">
             <div class="form-group">
+                <input type="hidden" name="access_key" value="41c005db-f773-4a69-a0bf-9b1ef5005e21">
                 <label for="name" data-section="Contact" data-value="Title7">Dein Name</label>
                 <input type="text" id="name" name="name" required>
             </div>
@@ -143,7 +145,8 @@
           <div class="controls">
             <button id="resetBtn" data-section="Configurator" data-value="Button1">Zurücksetzen</button>
             <button id="confirmBtn" type="submit" data-section="Configurator" data-value="Button2" disabled>Submit Form</button>
-          </div>          
+          </div>
+          </form>
         </div>
         <script src="StudentBalconyKonfiguratorscript.js"></script>
      </section>
@@ -256,6 +259,7 @@
  </body>
 
 </html>
+
 
 
 
