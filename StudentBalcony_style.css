@@ -407,8 +407,8 @@ body .linking-section {
          left: 80%; 
         
         }
-        .add-on input{
-            width: 60%;
+        .option input{
+            width: 200%;
             padding: 2px;
             position: static;
             border: 1px solid #ced4da;
@@ -743,6 +743,7 @@ body .linking-section {
   }
 
 }
+
 
 
 
